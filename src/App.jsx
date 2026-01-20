@@ -538,7 +538,7 @@ const Home = () => {
     <div className='shrink-0 h-[59px] lg:h-[99px] w-full '>
     </div>
     <Separator className={"shrink-0"} />
-    <div className='flex-1 flex flex-col justify-center 2xl:scale-[1.1] 2xl:mr-[80px]'>
+    <div className='flex-1 flex flex-col justify-center 2xl:scale-[1.1] 2xl:mr-[80px] [@media(width:768px)_and_(height:1024px)]:scale-[1.2]'>
       <div className='flex flex-col lg:flex-row items-center lg:px-[40px] gap-[60px] md:gap-[40px] lg:gap-[100px] lg:gap-[0px]'>
         <div className='flex-1'>
           <div className="flex-1 text-right md:ml-[20px]">
@@ -577,7 +577,7 @@ const Home = () => {
 
 
       <FadeInText className='flex justify-center'>
-        <div className='text-center py-[32px] font-medium text-[20px] lg:text-[32px] lg:leading-[40px] max-w-[1012px]'>
+        <div className='text-center py-[32px] font-medium text-[20px] lg:text-[32px] lg:leading-[40px] max-w-[1012px] [@media(width:768px)_and_(height:1024px)]:w-[80%] [@media(width:768px)_and_(height:1024px)]:text-[24px]'>
           Now you can have your own AI Doctor that is always on, always yours, and outcome focused
         </div>
       </FadeInText>
@@ -638,7 +638,7 @@ const Second = () => {
         alt="AI Doctor"
         className="absolute bottom-[90%] right-[10%] w-[120px] lg:w-[160px] hidden lg:block"
       />
-     <div className="">
+     <div className="[@media(width:768px)_and_(height:1024px)]:mt-[90px]">
 
         <h2 className="
       text-[24px]
@@ -662,6 +662,8 @@ const Second = () => {
       mx-auto
       text-left
       sm:text-center
+      [@media(width:768px)_and_(height:1024px)]:leading-[40px]
+      [@media(width:360px)_and_(height:640px)]:leading-[20px]
     ">
           If you are living with diabetes, hypertension, or weight struggles, you know how unpredictable the numbers can feel — progress one week, setbacks the next, and no clear sense of what actually helps. ChronicGPT changes that. Your human doctor sets your goals, and your personal AI Doctor learns your body in real time — watching your sleep, meals, glucose, activity, and medications to guide you with simple, clinical-grade decisions every day. It turns confusion into clarity, patterns into progress, and setbacks into signals you can finally understand.
         </p>
@@ -696,7 +698,7 @@ const Third = ({ currentCard }) => {
         <CardPositionInfo currentCard={currentCard} />
 
       </div>
-      <div className='flex-1 cards-carousel-container flex flex-col gap-[30px] 2xl:gap-[68px] 2xl:mt-[25px] [@media(min-width:2400px)]:gap-[150px] [@media(min-width:2400px)]:mt-[50px]'>
+      <div className='flex-1 cards-carousel-container flex flex-col gap-[30px] 2xl:gap-[68px] 2xl:mt-[25px] [@media(min-width:2400px)]:gap-[150px] [@media(min-width:2400px)]:mt-[50px] [@media(width:768px)_and_(height:1024px)]:gap-[100px]'>
         <Card
           index="01"
           image="/assets/images/card-1.jpg"
@@ -803,7 +805,7 @@ const Fourth = ({ hrCardContainer }) => {
       <h2 className='flex-1 [@media(max-height:700px)]:text-[23px] [@media(max-height:700px)]:leading-[24px] text-[28px] lg:text-[40px] leading-[30px] lg:leading-[52px] font-semibold'>
         Real clinical outcomes,<br/> felt in your everyday life
       </h2>
-      <p className='flex-1 [@media(max-height:700px)]:text-[14px] text-[16px] lg:text-[16px] leading-[20px] lg:leading-[24px] font-medium'>
+      <p className='flex-1 [@media(max-height:700px)]:text-[14px] text-[16px] lg:text-[16px] leading-[20px] lg:leading-[24px] font-medium [@media(width:360px)_and_(height:640px)]:text-[13px]'>
         You choose one or more improvement programs. Your AI Doctor works in the background every day — helping you feel the changes in ways that matter: steadier energy, calmer mornings, smoother rhythms, and more restorative nights.
       </p>
     </div>
@@ -923,7 +925,7 @@ const Card = ({
 
       {/* Content */}
       <div className="flex flex-col gap-[8px] lg:gap-[16px] 3xl:gap-[20px]">
-        <div className="font-light text-[28px] [@media(min-width:369px)]:text-[32px] text-[#121212]">
+        <div className="font-light text-[28px] [@media(min-width:369px)]:text-[32px] text-[#121212] [@media(width:768px)_and_(height:1024px)]:mt-[20px]">
           {index}
         </div>
 
@@ -932,7 +934,7 @@ const Card = ({
             {title}
           </div>
 
-          <div className="text-[14px] [@media(min-width:369px)]:text-[16px] leading-[22px] text-[#121212] xl:leading-[32px] 2xl:leading-[40px]">
+          <div className="text-[14px] [@media(min-width:369px)]:text-[16px] leading-[22px] text-[#121212] xl:leading-[32px] 2xl:leading-[40px] [@media(width:768px)_and_(height:1024px)]:leading-[40px]">
             {children}
           </div>
         </div>

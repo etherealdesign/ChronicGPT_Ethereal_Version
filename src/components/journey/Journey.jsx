@@ -413,9 +413,9 @@ const SectionThree = () => (
     <div className='flex-container flex flex-col gap-[40px] lg:gap-[24px] px-[5px] lg:p-[24px] lg:pt-0'>
       <div className='relative lg:z-[2] pt-[8px] lg:pt-[24px] flex items-center bg-[#121212] section-three-header flex-col lg:flex-row gap-[4px]'>
         <div className='flex-1 text-[32px] lg:text-[30px] xl:text-[36px] leading-[36px] lg:leading-normal font-semibold'>No Surprises. No Fine Print. <br className='hidden lg:inline-block' /> Just the Truth.</div>
-        <div className='flex-1 text-[16px] leading-[22px] font-medium'>We believe in complete transparency. Here's exactly what you get with ChronicGPT, what your insurance already covers, and what's optional.</div>
+        <div className="flex-1 text-[16px] leading-[22px] font-medium [@media(width:768px)_and_(height:1024px)]:text-center">We believe in complete transparency. Here's exactly what you get with ChronicGPT, what your insurance already covers, and what's optional.</div>
       </div>
-      <div className='relative z-[1] flex flex-col gap-[20px] lg:gap-[40px]'>
+      <div className='relative z-[1] flex flex-col gap-[20px] lg:gap-[40px] '>
         <Card2
           title="Included with ChronicAI"
           subtitle="(Everything here is part of the subscription)"
@@ -457,13 +457,13 @@ const SectionThree = () => (
 )
 
 const Card2 = ({ title, subtitle, img, children }) => (
-  <div className='max-h-[820px] lg:h-auto card-2 rounded-[30px] lg:rounded-[40px] bg-[#2A2A2A] p-[20px] lg:p-[40px] flex flex-col lg:flex-row gap-[32px]'>
+  <div className='max-h-[820px] lg:h-auto card-2 rounded-[30px] lg:rounded-[40px] bg-[#2A2A2A] p-[20px] lg:p-[40px] flex flex-col lg:flex-row gap-[32px] [@media(width:768px)_and_(height:1024px)]:h-[1100px]'>
     <div className='flex-1 flex flex-col gap-[20px] lg:gap-[24px]'>
       <div>
         <div className='font-bold lg:font-semibold text-[20px] lg:text-[24px] leading-[30px] lg:leading-[40px]'>{title}</div>
         <div className='text-[16px] leading-[22px] lg:leading-[28px]'>{subtitle}</div>
       </div>
-      <div className='flex flex-col gap-[8px] px-[20px] text-[16px] leading-[24px] lg:leading-[28px]'>
+      <div className='flex flex-col gap-[8px] px-[20px] text-[16px] leading-[24px] lg:leading-[28px] [@media(width:768px)_and_(height:1024px)]:leading-[32px]'>
         {children}
       </div>
     </div>
