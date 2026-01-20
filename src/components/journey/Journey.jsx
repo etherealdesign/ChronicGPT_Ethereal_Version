@@ -412,7 +412,7 @@ const SectionThree = () => (
 
     <div className='flex-container flex flex-col gap-[40px] lg:gap-[24px] px-[5px] lg:p-[24px] lg:pt-0'>
       <div className='relative lg:z-[2] pt-[8px] lg:pt-[24px] flex items-center bg-[#121212] section-three-header flex-col lg:flex-row gap-[4px]'>
-        <div className='flex-1 text-[32px] lg:text-[36px] leading-[36px] lg:leading-normal font-semibold'>No Surprises. No Fine Print. <br className='hidden lg:inline-block' /> Just the Truth.</div>
+        <div className='flex-1 text-[32px] lg:text-[30px] xl:text-[36px] leading-[36px] lg:leading-normal font-semibold'>No Surprises. No Fine Print. <br className='hidden lg:inline-block' /> Just the Truth.</div>
         <div className='flex-1 text-[16px] leading-[22px] font-medium'>We believe in complete transparency. Here's exactly what you get with ChronicGPT, what your insurance already covers, and what's optional.</div>
       </div>
       <div className='relative z-[1] flex flex-col gap-[20px] lg:gap-[40px]'>

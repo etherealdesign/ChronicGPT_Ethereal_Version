@@ -61,7 +61,7 @@ export default function HoverCards({ cards }) {
             </motion.div>
 
             <motion.div
-              className="text-[15px] 2xl:text-[20px] font-bold py-2 2xl:mt-[20px]"
+              className="text-[15px] lg:text-[13px] xl:text-[18px] 2xl:text-[20px] font-bold py-2 2xl:mt-[20px]"
               animate={{
                 fontSize: isActive ? EXPANDED_TITLE_SIZE : BASE_TITLE_SIZE,
                 opacity: isActive ? 1 : 0.6,
