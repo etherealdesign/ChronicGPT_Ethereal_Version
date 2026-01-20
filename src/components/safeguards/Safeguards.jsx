@@ -376,7 +376,7 @@ const BuildForTrust = () => (
     <div className='flex-1 flex flex-col lg:justify-center gap-[14px] sm:gap-[24px] sm:text-center px-[10px] py-[18px] sm:py-[24px] lg:p-[24px]sm:pb-[32px]  '>
       <div className='text-[34px] lg:text-[36px] w-[92%] mx-auto sm:w-[100%] font-semibold max-[380px]:text-[24px]'>Built for Trust</div>
       <div className='text-[16px] flex flex-col gap-[8px] w-[92%] mx-auto sm:w-[100%]'>
-        <div className='font-medium max-[380px]:text-[13px] text-[15px] leading-[20px] lg:text-[16px] lg:leading-normal xl:leading-[40px] 2xl:leading-[70px] sm:w-[96%] mx-auto '>
+        <div className='font-medium max-[380px]:text-[13px] text-[15px] leading-[20px] lg:text-[16px] lg:leading-normal xl:leading-[35px] 2xl:leading-[50px] sm:w-[96%] mx-auto '>
           We know you can only trust a system that is medically sound, transparent, and accountable. ChronicGPT is built so that your AI Doctor never acts alone. Your human doctor sets your health goals, licensed physicians oversee your progress, and every recommendation your AI Doctor makes is traceable, explainable, and grounded in real clinical reasoning. You are always informed, always in control, and never navigating your health alone.
         </div>
         <div className='font-bold pt-[8px] lg:pt-0 max-[380px]:text-[14px]'>

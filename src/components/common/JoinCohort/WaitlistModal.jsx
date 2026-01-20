@@ -167,7 +167,7 @@ function WaitlistModal() {
                                 )}
                             </AnimatePresence>
 
-                            <form name="waitlist" method="POST" data-netlify="true" className='flex flex-col gap-[20px] sm:gap-[16px] lg:gap-[32px] h-full px-2 2xl:justify-center' onSubmit={handleSubmit}>
+                            <form name="waitlist" method="POST" data-netlify="true" className='flex flex-col gap-[20px] sm:gap-[16px] lg:gap-[32px] h-full px-2 [@media(min-width:2000px)]:justify-center' onSubmit={handleSubmit}>
                                 <input type="hidden" name="form-name" value="waitlist" />
                                 <div className='flex flex-row gap-[12px] lg:gap-[24px]'>
                                     <FormInput
