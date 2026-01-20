@@ -805,12 +805,12 @@ const Fourth = ({ hrCardContainer }) => {
       <h2 className='flex-1 [@media(max-height:700px)]:text-[23px] [@media(max-height:700px)]:leading-[24px] text-[28px] lg:text-[40px] leading-[30px] lg:leading-[52px] font-semibold'>
         Real clinical outcomes,<br/> felt in your everyday life
       </h2>
-      <p className='flex-1 [@media(max-height:700px)]:text-[14px] text-[16px] lg:text-[16px] leading-[20px] lg:leading-[24px] font-medium [@media(width:360px)_and_(height:640px)]:text-[13px]'>
+      <p className='font-medium lg:font-semibold flex-1 [@media(max-height:700px)]:text-[14px] text-[16px] lg:text-[16px] leading-[20px] lg:leading-[24px] font-medium [@media(width:360px)_and_(height:640px)]:text-[13px]'>
         You choose one or more improvement programs. Your AI Doctor works in the background every day — helping you feel the changes in ways that matter: steadier energy, calmer mornings, smoother rhythms, and more restorative nights.
       </p>
     </div>
     <div className='flex flex-col justify-between [@media(max-height:700px)]:gap-[10px] gap-[24px]'>
-      <div className={cn('flex gap-[24px] 2xl:gap-[42px] hr-card-container pb-[8px] overflow-auto hide-scrollbar', canNext)} ref={hrCardContainer}>
+      <div className={cn('flex gap-[24px] 2xl:gap-[42px] hr-card-container pb-[8px] overflow-auto hide-scrollbar [@media(width:360px)_and_(height:640px)]:mt-[-15px]', canNext)} ref={hrCardContainer}>
         <HorizontalCard
           title="Mornings stop feeling unpredictable"
           img={"/assets/images/hr-card-1.jpg"}
@@ -850,7 +850,7 @@ const Fourth = ({ hrCardContainer }) => {
           Because your AI Doctor guides you in real time, habits stop slipping through cracks. Hydration, movement, medication timing, sleep routines — they become easier, more automatic, and more consistent.
         </HorizontalCard>
       </div>
-      <div className='flex p-2 max-[380px]:p-1 justify-between flex flex-row-reverse lg:flex-row items-center w-full'>
+      <div className='flex p-2 max-[380px]:p-1 justify-between flex flex-row-reverse lg:flex-row items-center w-full [@media(width:360px)_and_(height:640px)]:mt-[-23px]'>
         <div className="bg-[#06040A]/20 w-[200px] h-[4px] ">
           <div style={{ width: `${progress}%` }}
             className={cn("progress-bar bg-[#06040A] h-full w-fit")}></div>

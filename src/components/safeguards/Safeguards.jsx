@@ -308,7 +308,7 @@ const Third = () => {
           </div>
         </div>
       </div>
-      <div className='relative z-[1] flex flex-col gap-[40px] lg:gap-0'>
+      <div className='relative z-[1] flex flex-col gap-[40px] lg:gap-0 [@media(width:768px)_and_(height:1024px)]:gap-[90px]'>
         <Card title="Your data stays yours" logo="/assets/images/safeguards/card-1-icon.png" img="/assets/images/safeguards/card-1.jpg">
           Your health data is encrypted, never sold, and never shared without your permission. You decide what ChronicGPT Inc. can access and what it cannot.
         </Card>
