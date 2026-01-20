@@ -538,7 +538,7 @@ const Home = () => {
     <div className='shrink-0 h-[59px] lg:h-[99px] w-full '>
     </div>
     <Separator className={"shrink-0"} />
-    <div className='flex-1 flex flex-col justify-center 2xl:scale-[1.25] 2xl:mr-[100px]'>
+    <div className='flex-1 flex flex-col justify-center '>
       <div className='flex flex-col lg:flex-row items-center lg:px-[40px] gap-[60px] md:gap-[40px] lg:gap-[100px] lg:gap-[0px]'>
         <div className='flex-1'>
           <div className="flex-1 text-right md:ml-[20px]">
