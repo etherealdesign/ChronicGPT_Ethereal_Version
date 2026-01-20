@@ -303,7 +303,7 @@ const Third = () => {
           <div className='flex-1 text-[32px] lg:text-[40px] font-semibold '>
             Safeguards you deserve
           </div>
-          <div className='flex-1 font-medium text-[16px]'>
+          <div className='flex-1 font-medium text-[16px] [@media(width:1024px)_and_(height:768px)]:ml-[10px]'>
             Your AI Doctor is designed with multiple layers of protection to ensure your safety, privacy, and the highest standard of care.
           </div>
         </div>

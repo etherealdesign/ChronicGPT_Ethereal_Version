@@ -801,11 +801,11 @@ const Fourth = ({ hrCardContainer }) => {
 
 
   return <ResponsiveSection className='h-vh relative z-[4] text-[#121212] bg-[#F1F1F1] section-four flex flex-col [@media(max-height:896px)]:gap-[16px] gap-[24px] md:gap-[16px] lg:gap-[28px] 2xl:gap-[60px] 3xl:gap-[36px] bg-[#F1F1F1] mx-[10px] overflow-hidden'>
-    <div className='flex flex-col lg:flex-row [@media(max-height:700px)]:gap-[8px] gap-[16px] 2xl:gap-[18px] lg:gap-2'>
+    <div className='flex flex-col lg:flex-row [@media(max-height:700px)]:gap-[8px] gap-[16px] 2xl:gap-[18px] lg:gap-2 justify-center'>
       <h2 className='flex-1 [@media(max-height:700px)]:text-[23px] [@media(max-height:700px)]:leading-[24px] text-[28px] lg:text-[40px] leading-[30px] lg:leading-[52px] font-semibold'>
-        Real clinical outcomes,<br/> felt in your everyday life
+        Real clinical outcomes, felt in your everyday life
       </h2>
-      <p className='font-medium lg:font-semibold flex-1 [@media(max-height:700px)]:text-[14px] text-[16px] lg:text-[16px] leading-[20px] lg:leading-[24px] font-medium [@media(width:360px)_and_(height:640px)]:text-[13px]'>
+      <p className='font-medium lg:font-semibold flex-1 [@media(max-height:700px)]:text-[14px] text-[16px] lg:text-[16px] leading-[20px] lg:leading-[24px] font-medium [@media(width:360px)_and_(height:640px)]:text-[13px] [@media(width:1024px)_and_(height:768px)]:ml-[10px]'>
         You choose one or more improvement programs. Your AI Doctor works in the background every day — helping you feel the changes in ways that matter: steadier energy, calmer mornings, smoother rhythms, and more restorative nights.
       </p>
     </div>
